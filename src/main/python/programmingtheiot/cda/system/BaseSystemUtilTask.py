@@ -19,11 +19,12 @@ class BaseSystemUtilTask():
 		pass
 	
 	def getName(self) -> str:
-		pass
+		return self.name
+
 	
 	def getTypeID(self) -> int:
-		pass
-	
-	def getTelemetryValue(self) -> float:
+		return self.typeID
+
+	def getTelemetryValue() -> float:
 		pass
 	
