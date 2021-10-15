@@ -18,6 +18,7 @@ class PressureI2cSensorAdapterTask():
 
 	"""
 
+
     def __init__(self):
         pass
 
