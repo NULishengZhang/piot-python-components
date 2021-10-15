@@ -29,6 +29,7 @@ class PressureSensorEmulatorTask(BaseSensorSimTask):
 
         self.sh = SenseHAT(emulate=True)
 
+
     # generate telemetry by name and typeId
     def generateTelemetry(self) -> SensorData:
         sensorData = SensorData(name=self.getName(), typeID=self.getTypeID())
